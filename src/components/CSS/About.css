@@ -62,7 +62,7 @@ a{
     gap: 2rem;
 }
 .socials a{
-    font-size: 2.5rem; !important;
+    font-size: 2.5rem !important;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
