@@ -32,7 +32,7 @@ function ContactsMe() {
             >
                 <Box className="input-box">
                     <h2 className="section-title">
-                        if you’re looking for gayest man, Contact me
+                        Contact me
                     </h2>
                     <Box className="input">
                         <input
