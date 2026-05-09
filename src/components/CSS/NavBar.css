@@ -1,0 +1,82 @@
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links button {
+    color: white;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.logo{
+    position: relative;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+    text-wrap: nowrap !important;
+    transition: transform 0.3s ease;
+
+}
+
+.logo:before{
+    position: absolute !important;
+    content: "" !important;
+    width: 0;
+    left: 10px;
+    height: 3px;
+    top: 35px !important;
+    border-radius: 1rem !important;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(90deg, #00d9ff, #ff00d4);
+}
+
+.logo:hover:before{
+    width: 90%;
+}
+
+.button{
+    color: white !important;
+}
+
+.NavButton{
+    position: relative;
+    color: white !important;
+    font-weight: 600 !important;
+    display: inline-block;
+    transition: 0.3s;
+
+}
+
+.NavButton:hover{
+    background: linear-gradient(90deg, #00d9ff, #ff00d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.github-btn {
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    padding: 10px 25px !important;
+    background: linear-gradient(90deg, #00d9ff, #ff00d4) !important;
+}
+
+.github-btn:hover{
+    background: linear-gradient(90deg, #ff00d4, #00d9ff) !important;
+    transform: scale(1.05);
+}
+
+#menu-icon{
+    font-size: 2rem;
+    display: none;
+}
