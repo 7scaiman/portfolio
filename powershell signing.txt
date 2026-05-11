@@ -1,0 +1,13 @@
+$params = @{
+    Subject = 'CN=PowerShell Code Signing Cert'
+    Type = 'CodeSigning'
+    CertStoreLocation = 'C:\Users\oleksandr.h1\OneDrive - City of Liverpool College\Desktop'
+    HashAlgorithm = 'sha256'
+}
+$cert = New-SelfSignedCertificate @params
+
+
+$cert = Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert |
+    Select-Object -First 1
+
+Set-AuthenticodeSignature npm.ps1 $cert

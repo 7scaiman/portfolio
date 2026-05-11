@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  z-index: 1000;
+}
+
+section{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12%;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(219, 219,219);
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to bottom, #00d9ff, #ff00d4);
+}
+
+/* ================= TABLET ================= */
+
+@media(max-width: 1280px){
+
+  header{
+    padding: 1rem 2rem;
+  }
+
+  .about{
+    gap: 3rem;
+  }
+
+  .experience-info{
+    flex-direction: column;
+  }
+
+  .input-box input{
+    padding: 2rem 5rem;
+    font-size: 2.5rem;
+  }
+
+  .input-box input::placeholder{
+    font-size: 2.5rem;
+  }
+
+  .input-box i{
+    font-size: 2.5rem;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width: 768px){
+
+  section{
+    padding: 7rem 5% 4rem;
+    min-height: auto;
+  }
+
+  .section-title{
+    font-size: 2.8rem;
+  }
+
+  header{
+    width: 90%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .navbar-content{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .github-btn{
+    display: none !important;
+  }
+
+  #menu-icon{
+    display: block !important;
+    cursor: pointer;
+  }
+
+  .nav-links{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 2rem;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-links.active{
+    display: flex;
+  }
+
+  .nav-links button{
+    color: white !important;
+  }
+
+  .about{
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .about img{
+    width: 65vw;
+    height: 65vw;
+  }
+
+  .info-box h1{
+    font-size: 2.7rem;
+  }
+
+  .info-box span{
+    font-size: 1.5rem;
+  }
+
+  .btn-group{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .experience-info{
+    flex-direction: column;
+  }
+
+  .grid{
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-card{
+    width: 90vw;
+  }
+
+  .experience img{
+    width: 90vw !important;
+  }
+
+  .projects-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .project-card{
+    width: 90vw;
+  }
+
+  .project-card img{
+    width: 80vw;
+  }
+
+  .input{
+    width: 90vw;
+  }
+
+  .input-box input{
+    width: 100%;
+    padding: 1rem 1.5rem !important;
+    font-size: 1.2rem !important;
+  }
+
+  .input-box input::placeholder{
+    font-size: 1.2rem !important;
+  }
+
+  .input .icon{
+    display: none;
+  }
+
+  footer ul{
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
