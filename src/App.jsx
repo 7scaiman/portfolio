@@ -20,7 +20,7 @@ function App() {
         <footer>
             <ul>
                 <li>
-                    <a href="#about">About1</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
                     <a href="#experience">Experience</a>
