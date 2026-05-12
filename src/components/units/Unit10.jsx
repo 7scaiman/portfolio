@@ -29,7 +29,7 @@ function Unit10() {
 
             <div className="unit-container">
 
-                <h1 className="unit-title">Unit 10 </h1>
+                <h1 className="unit-title">Unit 10</h1>
 
                 <div className="unit-card">
 
@@ -37,15 +37,23 @@ function Unit10() {
                         <h2>Database Systems</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                            In this unit, I learned about database systems,
+                            tables, relationships, primary keys and
+                            how data is organised and managed.
+
+                            For Assignment 1, I created a presentation
+                            about how database systems are used
+                            in the police and banking sectors.
+
+                            I also designed for Assignment 2, a database for a shop,
+                            including a table structure and relationships
+                            between the tables.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
+                        src="/Unit10.png"
                         alt="Unit 10 Computer Networks"
                     />
 
@@ -58,10 +66,11 @@ function Unit10() {
                     <div className="unit-buttons">
 
                         <Button
+                            component="a"
                             variant="contained"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
+                            href="/AssigmentsFiles/Unit10/Unit10A1.pdf"
+                            download="Unit10A1.pdf"
                         >
                             Assignment 1
                         </Button>
@@ -69,7 +78,7 @@ function Unit10() {
                         <Button
                             variant="outlined"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
+                            href="/AssigmentsFiles/Unit10/Unit10A2.pdf"
                             download
                         >
                             Assignment 2
