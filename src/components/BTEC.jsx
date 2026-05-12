@@ -8,7 +8,7 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import StorageIcon from '@mui/icons-material/Storage';
 function BTEC(props) {
     return (
-        <section id="experience" className="experience">
+        <section id="BTEC" className="BTEC-section">
             <Box>
             <h2 className="section-title">BTEC - City of Liverpool College</h2>
             <Box className="BTEC-info">

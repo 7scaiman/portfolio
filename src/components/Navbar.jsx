@@ -18,6 +18,7 @@ function Navbar() {
                     <Button href="#about" className="NavButton">About</Button>
                     <Button href="#experience" className="NavButton">Experience</Button>
                     <Button href="#projects" className="NavButton">Projects</Button>
+                    <Button href="#BTEC" className="NavButton">BTEC</Button>
                     <Button href="#contact" className="NavButton">Contact</Button>
                 </Box>
 
