@@ -13,7 +13,7 @@ function BTEC(props) {
             <h2 className="section-title">BTEC - City of Liverpool College</h2>
             <Box className="experience-info">
                 <Box className="grid">
-                    <Box className="grid-card">
+                    <Box>
                         <p>
                             Studied programming for 3 years at IT Step Academy.
                             During the first 6 months, also learned general IT fundamentals
