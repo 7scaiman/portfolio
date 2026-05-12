@@ -15,10 +15,9 @@ function BTEC(props) {
                 <Box className="grid">
                     <Box>
                         <p>
-                            Studied programming for 3 years at IT Step Academy.
-                            During the first 6 months, also learned general IT fundamentals
-                            and computer technologies. Successfully graduated and received
-                            a diploma in Software Development.
+                            Currently studying BTEC Level 2 Information and Creative Technology at The City of Liverpool College.
+Learning web development, programming fundamentals, IT systems, digital technologies, and creative computing skills.
+Working with modern technologies and improving practical problem-solving abilities through projects and coursework.
                         </p>
                     </Box>
                 </Box>
