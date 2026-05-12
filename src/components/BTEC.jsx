@@ -31,7 +31,12 @@ function BTEC(props) {
                 and coursework. 
                 
             </p>
+            <Link to="/Unit10">Unit 10 - Computer Networks</Link>
             <Link to="/Unit11">Unit 11 - Computer Networks</Link>
+            <Link to="/Unit16">Unit 16 - Computer Networks</Link>
+            <Link to="/Unit17">Unit 17 - Computer Networks</Link>
+            <Link to="/Unit19">Unit 19 - Computer Networks</Link>
+            <Link to="/Unit22">Unit 22 - Computer Networks</Link>
         </Box>
 
         <Box className="BTEC-image-box">
