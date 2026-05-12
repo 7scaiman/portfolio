@@ -2,15 +2,31 @@
     padding: 8rem 10%;
 }
 
+.section-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+    line-height: 1.2;
+}
+
 .BTEC-card {
-    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
+
     padding: 3rem;
+
     border-radius: 2rem;
+
     box-shadow: 0 0 30px rgba(0,0,0,0.12);
+
+    transition: 0.3s ease-in-out;
+}
+
+.BTEC-card:hover {
+    transform: translateY(-5px);
 }
 
 .BTEC-text {
@@ -24,64 +40,96 @@
 
 .BTEC-text p {
     font-size: 1.1rem;
-    line-height: 1.7;
+    line-height: 1.8;
     margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.BTEC-image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .BTEC-image-box img {
     width: 32rem;
     max-width: 100%;
+
     border-radius: 1.5rem;
+
     box-shadow: 0 0 25px rgba(0,0,0,0.15);
+
+    transition: 0.3s ease-in-out;
 }
 
+.BTEC-image-box img:hover {
+    transform: scale(1.02);
+}
+
+/* Tablet */
+
 @media (max-width: 900px) {
-    .BTEC-card {
-        flex-direction: column;
-        text-align: center;
-    }
 
     .BTEC-section {
         padding: 6rem 5%;
     }
-}
-@media (max-width: 768px) {
-
-    .BTEC-section {
-        padding: 4rem 6%;
-    }
 
     .section-title {
-        font-size: 2.5rem;
-        text-align: center;
-        line-height: 1.2;
+        font-size: 3rem;
     }
 
     .BTEC-card {
         flex-direction: column;
         text-align: center;
 
-        padding: 2rem;
-        gap: 2rem;
-        margin-top: 2rem;
+        gap: 3rem;
     }
 
     .BTEC-text {
         max-width: 100%;
     }
 
+    .BTEC-image-box img {
+        width: 28rem;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 768px) {
+
+    .BTEC-section {
+        padding: 4rem 1.2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .BTEC-card {
+        padding: 1.5rem;
+
+        gap: 1.5rem;
+
+        border-radius: 1.5rem;
+    }
+
     .BTEC-text h3 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
     }
 
     .BTEC-text p {
-        font-size: 1rem;
-        line-height: 1.6;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 0.8rem;
     }
 
     .BTEC-image-box img {
         width: 100%;
-        max-width: 320px;
-    }
+        max-width: 280px;
 
+        border-radius: 1rem;
+    }
 }
