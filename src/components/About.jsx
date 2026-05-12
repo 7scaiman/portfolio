@@ -5,7 +5,13 @@ import img from "../../public/resized_first_photo.jpg"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Dialog from "@mui/material/Dialog";
+import DialogTitle from "@mui/material/DialogTitle";
+import DialogContent from "@mui/material/DialogContent";
+import DialogActions from "@mui/material/DialogActions";
+
 function About(props) {
+    const [open, setOpen] = React.useState(false);
     return (
         <section  id="about" >
             <Box display="flex" alignItems="center" justifyContent="center" className="about">
@@ -20,13 +26,22 @@ function About(props) {
                         <a href="/Oleksandr_Hanysh_CV.pdf" download="Oleksandr_Hanysh_CV.pdf">
                         <div className="btn"  >Download CV</div>
                         </a>
-                        <div className="btn" >Contact</div>
+                        <div className="btn" onClick={() => setOpen(true)}>Contact</div>
+                        <Dialog open={open} onClose={() => setOpen(false)}>
+                            <DialogTitle>Contact Me</DialogTitle>          
+                            <DialogContent>
+                                gagaga
+                            </DialogContent>
+                            <DialogActions>
+                                <div className="btn" onClick={() => setOpen(false)}>Close</div>
+                            </DialogActions>                           
+                             </Dialog>
                     </Box>
                     <Box className="socials">
                         <a href="https://github.com/7scaiman" target="_blank">
                         <GitHubIcon fontSize="large"/>
                         </a>
-                        <a href="hhttps://www.linkedin.com/in/oleksandr-hanysh-87b99b33b/" target="_blank">
+                        <a href="https://www.linkedin.com/in/oleksandr-hanysh-87b99b33b/" target="_blank">
                         <LinkedInIcon fontSize="large"/>
                         </a>
                         <a href="https://www.instagram.com/sacha_ganich?igsh=MWg4Z2FoMzRiMXUxaw%3D%3D&utm_source=qr" target="_blank">
