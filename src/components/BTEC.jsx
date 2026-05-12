@@ -6,6 +6,7 @@ import CodeIcon from '@mui/icons-material/Code';
 import SchoolIcon from '@mui/icons-material/School';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import StorageIcon from '@mui/icons-material/Storage';
+import { Link } from "react-router-dom";
 function BTEC(props) {
     return (
         <section id="BTEC" className="BTEC-section">
@@ -30,6 +31,7 @@ function BTEC(props) {
                 and coursework. 
                 
             </p>
+            <Link to="/Unit11">Unit 11 - Computer Networks</Link>
         </Box>
 
         <Box className="BTEC-image-box">

@@ -1,44 +1,48 @@
 import './App.css'
-import Navbar from "./components/Navbar.jsx";
+
+import Navbar from './components/Navbar.jsx';
 import About from "./components/About.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import ContactsMe from "./components/ContactsMe.jsx";
 import BTEC from './components/BTEC.jsx';
 
+import Unit11 from "./units/Unit11.jsx";
 
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
+
+function HomePage() {
+    return (
+        <>
+            <Navbar/>
+            <About/>
+            <Experience/>
+            <Projects/>
+            <BTEC/>
+            <ContactsMe/>
+        </>
+    )
+}
 
 function App() {
 
+    return (
+        <BrowserRouter>
 
-  return (
-    <>
-        <Navbar/>
-        <About/>
-        <Experience/>
-        <Projects/>
-        <BTEC/>
-        <ContactsMe/>
-        <footer>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-            <p className="copyright">© All Rights Reserved / Oleksandr Hanysh</p>
-        </footer>
+            <Routes>
 
-    </>
-  )
+                <Route path="/" element={<HomePage />} />
+
+                <Route path="/Unit11" element={<Unit11 />} />
+
+            </Routes>
+
+        </BrowserRouter>
+    )
 }
 
 export default App
