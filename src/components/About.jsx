@@ -30,7 +30,8 @@ function About(props) {
                         <Dialog open={open} onClose={() => setOpen(false)}>
                             <DialogTitle>Contact Me</DialogTitle>          
                             <DialogContent>
-                                gagaga
+                                <p>Email:<a href="mailto:sanya.hanysh@gmail.com"> sanya.hanysh@gamil.com</a></p>
+                                <p>Phone number:<a href="tel:+380671234567"> +447438963273</a></p>
                             </DialogContent>
                             <DialogActions>
                                 <div className="btn" onClick={() => setOpen(false)}>Close</div>
