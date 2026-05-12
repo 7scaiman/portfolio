@@ -17,7 +17,8 @@
 
             <p>
                 Improving practical problem-solving abilities through projects
-                and coursework.
+                and coursework. 
+                
             </p>
         </Box>
 
