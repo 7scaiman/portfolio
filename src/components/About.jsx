@@ -27,14 +27,14 @@ function About(props) {
                         <div className="btn"  >Download CV</div>
                         </a>
                         <div className="btn" onClick={() => setOpen(true)}>Contact</div>
-                        <Dialog open={open} onClose={() => setOpen(false)}>
+                        <Dialog open={open} onClose={() => setOpen(false)} className="contact-dialog">
                             <DialogTitle>Contact Me</DialogTitle>          
                             <DialogContent>
                                 <p>Email:<a href="mailto:sanya.hanysh@gmail.com"> sanya.hanysh@gmail.com</a></p>
                                 <p>Phone number:<a href="tel:+447438963273"> +447438963273</a></p>
                             </DialogContent>
                             <DialogActions>
-                                <div className="btn" onClick={() => setOpen(false)}>Close</div>
+                                <div className="btn dialog-btn" onClick={() => setOpen(false)}>Close</div>
                             </DialogActions>                           
                              </Dialog>
                     </Box>

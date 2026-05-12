@@ -69,3 +69,40 @@ a{
 .socials a:hover{
     transform: scale(1.1);
 }
+.contact-dialog .MuiDialog-paper {
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 320px;
+}
+
+.contact-dialog .MuiDialogTitle-root {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.contact-dialog .MuiDialogContent-root {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-top: 0;
+}
+
+.contact-dialog .MuiDialogContent-root p {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+}
+
+.contact-dialog .MuiDialogActions-root {
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.contact-dialog .btn {
+    padding: 0.4rem 1.4rem;
+    font-size: 1rem;
+}
+.contact-dialog .MuiDialogContent-root p {
+    margin: 0.2rem 0;
+}
+
