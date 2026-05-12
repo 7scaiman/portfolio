@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Grid} from "@mui/material";
-import  './CSS/Experience.css';
+import  './CSS/BTEC.css';
 import img from "../../public/city-of-liverpool-college-black-logo-480x180.png"
 import CodeIcon from '@mui/icons-material/Code';
 import SchoolIcon from '@mui/icons-material/School';
@@ -11,7 +11,7 @@ function BTEC(props) {
         <section id="experience" className="experience">
             <Box>
             <h2 className="section-title">BTEC - City of Liverpool College</h2>
-            <Box className="experience-info">
+            <Box className="BTEC-info">
                 <Box className="grid">
                     <Box>
                         <p>
