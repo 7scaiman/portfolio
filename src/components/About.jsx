@@ -31,7 +31,7 @@ function About(props) {
                             <DialogTitle>Contact Me</DialogTitle>          
                             <DialogContent>
                                 <p>Email:<a href="mailto:sanya.hanysh@gmail.com"> sanya.hanysh@gmail.com</a></p>
-                                <p>Phone number:<a href="tel:+447438963273"> +447438963273</a></p>
+                                <p>Phone number:<a href="tel:+447428963273"> +44 7428 963273</a></p>
                             </DialogContent>
                             <DialogActions>
                                 <div className="btn dialog-btn" onClick={() => setOpen(false)}>Close</div>
