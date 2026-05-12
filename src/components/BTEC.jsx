@@ -29,14 +29,21 @@ function BTEC(props) {
             <p>
                 Improving practical problem-solving abilities through projects
                 and coursework. 
-                
+
             </p>
-            <Link to="/Unit10">Unit 10 - Computer Networks</Link>
-            <Link to="/Unit11">Unit 11 - Computer Networks</Link>
-            <Link to="/Unit16">Unit 16 - Computer Networks</Link>
-            <Link to="/Unit17">Unit 17 - Computer Networks</Link>
-            <Link to="/Unit19">Unit 19 - Computer Networks</Link>
-            <Link to="/Unit22">Unit 22 - Computer Networks</Link>
+            <Link to="/Unit10"  style={{color: "#1976d2", textDecoration: "underline"}}>Unit 10 - Database Systems</Link>
+            <br/>
+            <Link to="/Unit11" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 11 - Computer Networks</Link>
+            <br/>
+            <Link to="/Unit16" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 16 - Automated Systems</Link>
+            <br/>
+            <Link to="/Unit17" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 17 - Multimedia Products</Link>
+            <br/>
+            <Link to="/Unit18" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 18 - Computational Thinking</Link>
+            <br/>
+            <Link to="/Unit19" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 19 - Computing in the Workplace</Link>
+            <br/>
+            <Link to="/Unit22" style={{color: "#1976d2", textDecoration: "underline"}}>Unit 22 - Computer Security in Practice</Link>
         </Box>
 
         <Box className="BTEC-image-box">
