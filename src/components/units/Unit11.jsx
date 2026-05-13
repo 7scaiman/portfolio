@@ -62,8 +62,8 @@ The assignments helped me improve my understanding of how the internet works, ho
                                 component="a"
                                 variant="contained"
                                  startIcon={<DownloadIcon />}
-                                    href="/Unit11/Unit11A1.zip"
-                                                   download="Unit11A1.zip"
+                                    href="/Unit11/UNIT11A1.zip"
+                                                   download="UNIT11A1.zip"
                                 >
                                  Assignment 1
                         </Button>
@@ -71,8 +71,8 @@ The assignments helped me improve my understanding of how the internet works, ho
                         <Button
                                 variant="outlined"
                                 startIcon={<DownloadIcon />}
-                                href="/Unit11/Unit11A2.zip"
-                                download="Unit11A2.zip"
+                                href="/Unit11/UNIT11A2.zip"
+                                download="UNIT11A2.zip"
                              >
                                 Assignment 2
                         </Button>
