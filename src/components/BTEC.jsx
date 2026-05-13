@@ -2,10 +2,6 @@ import React from 'react';
 import {Box, Grid} from "@mui/material";
 import  './CSS/BTEC.css';
 import img from "../../public/city-of-liverpool-college-black-logo-480x180.png"
-import CodeIcon from '@mui/icons-material/Code';
-import SchoolIcon from '@mui/icons-material/School';
-import MenuBookIcon from '@mui/icons-material/MenuBook';
-import StorageIcon from '@mui/icons-material/Storage';
 import { Link } from "react-router-dom";
 function BTEC(props) {
     return (

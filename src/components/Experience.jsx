@@ -47,7 +47,6 @@ function Experience(props) {
                             including basic backend and database development.</p>
                     </Box>
                 </Box>
-            <img src={img}/>
             </Box>
             </Box>
         </section>

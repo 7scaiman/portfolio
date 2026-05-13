@@ -10,16 +10,17 @@ function Navbar() {
         <header>
             <Toolbar className="navbar-content">
 
-                <Button className="logo" href="#about">
+                <Button className="logo" href="/#main">
                     Oleksandr
                 </Button>
 
                 <Box className={open ? "nav-links active" : "nav-links"}>
                     <Button href="/#about" className="NavButton">About</Button>
                     <Button href="/#experience" className="NavButton">Experience</Button>
+                    <Button href="/#Diploma" className="NavButton">Diploma(Academy)</Button>
                     <Button href="/#projects" className="NavButton">Projects</Button>
                     <Button href="/#BTEC" className="NavButton">BTEC</Button>
-                    <Button href="#/contact" className="NavButton">Contact</Button>
+                    <Button href="/#contact" className="NavButton">Contact</Button>
                 </Box>
 
                 <MenuIcon id="menu-icon" onClick={() => setOpen(!open)} />

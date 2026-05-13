@@ -36,16 +36,16 @@ function Unit22(props) {
                         <h2>Computer Security in Practice</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                            Computer Security in Practice
+                            In this unit, I learned about computer security and how organisations protect systems, networks and data from cyber threats. I explored different types of security risks, malware, encryption, authentication and methods used to keep information secure.
+                            The assignments helped me improve my understanding of cybersecurity, safe working practices and how security is applied in real-world IT environments.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit22/Unit22.png"
+                        alt="Unit 22 Computer Security in Practice"
                     />
 
                 </div>
@@ -57,10 +57,12 @@ function Unit22(props) {
                     <div className="unit-buttons">
 
                         <Button
+                            component="a"
                             variant="contained"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
+                            href="/Unit22/UNIT22A1.zip"
+                            download="UNIT22A1.zip"
+                            color="secondary"
                         >
                             Assignment 1
                         </Button>
@@ -68,8 +70,9 @@ function Unit22(props) {
                         <Button
                             variant="outlined"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
+                            href="/Unit22/UNIT22A2.zip"
+                            download="UNIT22A2.zip"
+                            color="secondary"
                         >
                             Assignment 2
                         </Button>

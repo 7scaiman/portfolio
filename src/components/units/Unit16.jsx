@@ -65,6 +65,7 @@ I also learned about the advantages and disadvantages of automation, including e
                                  startIcon={<DownloadIcon />}
                                     href="/Unit16/UNIT16A1.zip"
                                                    download="UNIT16A1.zip"
+                                color="secondary"
                                 >
                                  Assignment 1
                         </Button>
@@ -74,6 +75,7 @@ I also learned about the advantages and disadvantages of automation, including e
                                 startIcon={<DownloadIcon />}
                                 href="/Unit16/UNIT16A2.zip"
                                 download="UNIT16A2.zip"
+                                color="secondary"
                              >
                                 Assignment 2
                         </Button>

@@ -71,6 +71,7 @@ function Unit10() {
                             startIcon={<DownloadIcon />}
                             href="/Unit10/Unit10A1.zip"
                             download="Unit10A1.zip"
+                            color="secondary"
                         >
                             Assignment 1
                         </Button>
@@ -80,6 +81,7 @@ function Unit10() {
                             startIcon={<DownloadIcon />}
                             href="/Unit10/Unit10A2.zip"
                             download="Unit10A2.zip"
+                            color="secondary"
                         >
                             Assignment 2
                         </Button>

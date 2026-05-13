@@ -36,16 +36,18 @@ function Unit18(props) {
                         <h2>Computational Thinking</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                            Computational Thinking
+
+                            In this unit, I learned about computational thinking and how to solve problems using logic, algorithms and structured planning. I explored concepts such as decomposition, pattern recognition and abstraction.
+
+                            As part of this unit, I created a maze project in Unreal Engine 5 with interactive elements and gameplay mechanics. This helped me improve my problem-solving, level design and game development skills.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit18/Unit18.png"
+                        alt="Unit 18 Computational Thinking"
                     />
 
                 </div>
@@ -57,21 +59,14 @@ function Unit18(props) {
                     <div className="unit-buttons">
 
                         <Button
+                            component="a"
                             variant="contained"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
+                            href="/Unit18/UNIT18.zip"
+                            download="UNIT18.zip"
+                            color="secondary"
                         >
                             Assignment 1
-                        </Button>
-
-                        <Button
-                            variant="outlined"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
-                        >
-                            Assignment 2
                         </Button>
 
                     </div>

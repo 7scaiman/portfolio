@@ -64,6 +64,7 @@ The assignments helped me improve my understanding of how the internet works, ho
                                  startIcon={<DownloadIcon />}
                                     href="/Unit11/UNIT11A1.zip"
                                                    download="UNIT11A1.zip"
+                                color="secondary"
                                 >
                                  Assignment 1
                         </Button>
@@ -73,6 +74,7 @@ The assignments helped me improve my understanding of how the internet works, ho
                                 startIcon={<DownloadIcon />}
                                 href="/Unit11/UNIT11A2.zip"
                                 download="UNIT11A2.zip"
+                                color="secondary"
                              >
                                 Assignment 2
                         </Button>

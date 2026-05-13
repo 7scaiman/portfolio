@@ -1,7 +1,7 @@
 import './App.css'
 
 import Navbar from './components/Navbar.jsx';
-import About from "./components/About.jsx";
+import Main from "./components/Main.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import ContactsMe from "./components/ContactsMe.jsx";
@@ -20,17 +20,23 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import About from "./components/About.jsx";
+import Diploma from "./components/Diploma.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function HomePage() {
     return (
         <>
             <Navbar/>
+            <Main/>
             <About/>
             <Experience/>
+            <Diploma/>
             <Projects/>
             <BTEC/>
             <ContactsMe/>
+
         </>
     )
 }
@@ -53,8 +59,9 @@ function App() {
                 <Route path="/Unit22" element={<Unit22 />} />
 
             </Routes>
-
+            <Footer/>
         </BrowserRouter>
+
     )
 }
 

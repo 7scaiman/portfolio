@@ -36,13 +36,9 @@ function Unit17(props) {
                         <h2>Multimedia Products</h2>
 
                         <p>
-                           Multimedia Products
-
-In this unit, I learned about multimedia products and how different types of media are used to create interactive and engaging digital experiences. I explored the difference between linear and interactive multimedia products and how they are used in education, entertainment and marketing.
-
-As part of this unit, I worked on a space-themed project about Mars and created multimedia content for a museum exhibition concept. I designed interactive presentations and small mini-games using GDevelop to make the experience more engaging for users. The project helped me improve my creativity, design and development skills while learning how to combine text, images, sound, animation and user interaction in one product.
-
-During the assignments, I also learned how to plan, design, test and review multimedia products, as well as how to collect feedback and improve the final result for different target audiences.
+                            Multimedia Products
+                            In this unit, I learned about multimedia products and the difference between linear and interactive media. I explored how multimedia is used in education and entertainment.
+                            As part of this unit, I created a space-themed multimedia project about Mars and designed small mini-games using GDevelop. This helped me improve my creativity, design and development skills.
                         </p>
                     </div>
 
@@ -66,6 +62,7 @@ During the assignments, I also learned how to plan, design, test and review mult
                                  startIcon={<DownloadIcon />}
                                     href="/Unit17/UNIT17A1.zip"
                                                    download="UNIT17A1.zip"
+                                color="secondary"
                                 >
                                  Assignment 1
                         </Button>
@@ -75,6 +72,7 @@ During the assignments, I also learned how to plan, design, test and review mult
                                 startIcon={<DownloadIcon />}
                                 href="/Unit17/UNIT17A2.zip"
                                 download="UNIT17A2.zip"
+                                color="secondary"
                              >
                                 Assignment 2
                         </Button>

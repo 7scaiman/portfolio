@@ -44,8 +44,8 @@ function Unit19(props) {
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit19/Unit19.png"
+                        alt="Unit 19 Computing in the Workplace"
                     />
 
                 </div>
@@ -56,11 +56,14 @@ function Unit19(props) {
 
                     <div className="unit-buttons">
 
+
                         <Button
+                            component="a"
                             variant="contained"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
+                            href="/Unit19/UNIT19A1.zip"
+                            download="UNIT19A1.zip"
+                            color="secondary"
                         >
                             Assignment 1
                         </Button>
@@ -68,8 +71,9 @@ function Unit19(props) {
                         <Button
                             variant="outlined"
                             startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
+                            href="/Unit19/UNIT19A2.zip"
+                            download="UNIT19A2.zip"
+                            color="secondary"
                         >
                             Assignment 2
                         </Button>

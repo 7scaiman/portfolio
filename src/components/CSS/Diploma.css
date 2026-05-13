@@ -1,0 +1,234 @@
+.Diploma-section{
+    padding: 8rem 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title{
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 4rem;
+    font-weight: 700;
+
+    margin-bottom: 4rem;
+
+    line-height: 1.2;
+}
+
+.Diploma-card{
+    max-width: 1400px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 6rem;
+
+    padding: 3rem;
+
+    border-radius: 2rem;
+
+    background: white;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.12);
+
+    transition: 0.3s ease-in-out;
+}
+
+.Diploma-card:hover{
+    transform: translateY(-5px);
+}
+
+.Diploma-text{
+    flex: 1;
+
+    max-width: 700px;
+}
+
+.Diploma-text h3{
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+.Diploma-text p{
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 1rem;
+
+    opacity: 0.9;
+}
+
+.Diploma-text a{
+    color: #1976d2;
+
+    text-decoration: underline;
+
+    line-height: 1.8;
+}
+
+.Diploma-image-box{
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Diploma-download{
+    position: relative;
+
+    display: inline-block;
+
+    border-radius: 1.5rem;
+
+    overflow: hidden;
+}
+
+.Diploma-image-box img{
+    width: 38rem;
+    max-width: 100%;
+
+    border-radius: 1.5rem;
+
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+
+    transition: 0.3s ease-in-out;
+
+    display: block;
+}
+
+.Diploma-image-box img:hover{
+    transform: scale(1.02);
+}
+
+.Diploma-overlay{
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.45);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    opacity: 0;
+
+    transition: 0.3s ease-in-out;
+}
+
+.Diploma-download:hover .Diploma-overlay{
+    opacity: 1;
+}
+
+/* Tablet */
+
+@media (max-width: 1100px){
+
+    .Diploma-card{
+        gap: 3rem;
+    }
+
+    .Diploma-image-box img{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 900px){
+
+    .Diploma-section{
+        padding: 6rem 5%;
+    }
+
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .Diploma-card{
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        gap: 3rem;
+    }
+
+    .Diploma-text{
+        max-width: 100%;
+    }
+
+    .Diploma-image-box img{
+        width: 26rem;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 768px){
+
+    .Diploma-section{
+        padding: 4rem 1.2rem;
+    }
+
+    .section-title{
+        font-size: 2rem;
+
+        margin-bottom: 2rem;
+
+        line-height: 1.2;
+    }
+
+    .Diploma-card{
+        padding: 1.5rem;
+
+        gap: 1.5rem;
+
+        border-radius: 1.5rem;
+    }
+
+    .Diploma-text h3{
+        font-size: 1.5rem;
+
+        margin-bottom: 0.8rem;
+    }
+
+    .Diploma-text p{
+        font-size: 0.95rem;
+
+        line-height: 1.7;
+
+        margin-bottom: 0.8rem;
+    }
+
+    .Diploma-image-box{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .Diploma-image-box img{
+        width: 100%;
+        max-width: 320px;
+
+        border-radius: 1rem;
+    }
+
+    .Diploma-overlay{
+        font-size: 1rem;
+    }
+}
