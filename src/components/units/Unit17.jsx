@@ -36,16 +36,20 @@ function Unit17(props) {
                         <h2>Multimedia Products</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                           Multimedia Products
+
+In this unit, I learned about multimedia products and how different types of media are used to create interactive and engaging digital experiences. I explored the difference between linear and interactive multimedia products and how they are used in education, entertainment and marketing.
+
+As part of this unit, I worked on a space-themed project about Mars and created multimedia content for a museum exhibition concept. I designed interactive presentations and small mini-games using GDevelop to make the experience more engaging for users. The project helped me improve my creativity, design and development skills while learning how to combine text, images, sound, animation and user interaction in one product.
+
+During the assignments, I also learned how to plan, design, test and review multimedia products, as well as how to collect feedback and improve the final result for different target audiences.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit17/Unit17.png"
+                        alt="Unit 17 Multimedia Products"
                     />
 
                 </div>
@@ -57,22 +61,24 @@ function Unit17(props) {
                     <div className="unit-buttons">
 
                         <Button
-                            variant="contained"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
-                        >
-                            Assignment 1
+                                component="a"
+                                variant="contained"
+                                 startIcon={<DownloadIcon />}
+                                    href="/Unit17/UNIT17A1.zip"
+                                                   download="UNIT17A1.zip"
+                                >
+                                 Assignment 1
                         </Button>
-
+                       
                         <Button
-                            variant="outlined"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
-                        >
-                            Assignment 2
+                                variant="outlined"
+                                startIcon={<DownloadIcon />}
+                                href="/Unit17/UNIT17A2.zip"
+                                download="UNIT17A2.zip"
+                             >
+                                Assignment 2
                         </Button>
+ 
 
                     </div>
                 </div>
