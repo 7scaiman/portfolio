@@ -69,8 +69,8 @@ function Unit10() {
                             component="a"
                             variant="contained"
                             startIcon={<DownloadIcon />}
-                            href="/AssigmentsFiles/Unit10/Unit10A1.zip"
-                            download="Unit10A1.zip"
+                            href="/AssigmentsFiles/Unit10/UNIT10A1.zip"
+                            download="UNIT10A1.zip"
                         >
                             Assignment 1
                         </Button>
@@ -79,7 +79,7 @@ function Unit10() {
                             variant="outlined"
                             startIcon={<DownloadIcon />}
                             href="/AssigmentsFiles/Unit10/Unit10A2.zip"
-                            download
+                            download="Unit10A2.zip"
                         >
                             Assignment 2
                         </Button>
