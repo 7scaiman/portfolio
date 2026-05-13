@@ -36,16 +36,18 @@ function Unit11(props) {
                         <h2>Computer Networks</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                            In this unit, I learned about different types of computer networks and how devices communicate with each other. I explored wired and wireless networks, network topologies, IP addressing, data transmission and network security.
+
+I also learned about important network devices such as routers, switches, access points and firewalls, and how they are used in both home and business environments. During this unit, I compared different network setups and explained the advantages and disadvantages of each one.
+
+The assignments helped me improve my understanding of how the internet works, how data travels across networks and why security and reliability are important in modern computer systems.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit11/Unit11.png"
+                        alt="Unit 11 Computer Networks"
                     />
 
                 </div>
@@ -57,21 +59,22 @@ function Unit11(props) {
                     <div className="unit-buttons">
 
                         <Button
-                            variant="contained"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
-                        >
-                            Assignment 1
+                                component="a"
+                                variant="contained"
+                                 startIcon={<DownloadIcon />}
+                                    href="/Unit11/Unit11A1.zip"
+                                                   download="Unit11A1.zip"
+                                >
+                                 Assignment 1
                         </Button>
-
+                       
                         <Button
-                            variant="outlined"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
-                        >
-                            Assignment 2
+                                variant="outlined"
+                                startIcon={<DownloadIcon />}
+                                href="/Unit11/Unit11A2.zip"
+                                download="Unit11A2.zip"
+                             >
+                                Assignment 2
                         </Button>
 
                     </div>

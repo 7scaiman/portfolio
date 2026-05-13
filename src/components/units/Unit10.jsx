@@ -53,8 +53,8 @@ function Unit10() {
 
                     <img
                         className="unit-image"
-                        src="/Unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit10/Unit10.png"
+                        alt="Unit 10 Database Systems"
                     />
 
                 </div>
