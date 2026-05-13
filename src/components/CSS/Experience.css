@@ -1,43 +1,41 @@
-
-
 .experience-info{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
     margin-top: 3rem;
+    max-width: 1400px;
+    margin-inline: auto;
 }
 
 .experience img{
-    width: 38rem;
+    width: 30rem;
     border-radius: 2rem;
     margin-top: 3rem;
     transition: 0.3s ease-in-out;
-
     object-fit: cover;
     box-shadow: 0 0 25px rgba(0,0,0,0.15);
 }
+
 .experience img:hover{
     transform: scale(1.03);
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-    max-width: 900px;
+    max-width: 850px;
 }
 
 .grid-card{
     border: 2px solid black;
     padding: 2.5rem;
     border-radius: 3rem;
-
     min-height: 220px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
@@ -48,16 +46,10 @@
     color: white;
 }
 
-.grid-card i{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
 .grid-card span{
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
-
     background: linear-gradient(90deg,#ff00d4, #00d9ff);
     background-clip: text;
     -webkit-background-clip: text;
