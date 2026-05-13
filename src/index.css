@@ -2,34 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   scroll-behavior: smooth;
+  list-style: none;
 }
 
-header {
-  position: fixed;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(8px);
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  z-index: 1000;
+body{
+  background-color: rgb(245,245,245);
+  color: black;
+  overflow-x: hidden;
 }
 
 section{
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 12%;
+  padding: 8rem 12%;
+  width: 100%;
+  position: relative;
 }
 
 .section-title{
@@ -39,21 +28,147 @@ section{
   margin-bottom: 3rem;
 }
 
+/* ================= HEADER ================= */
+
+header{
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(8px);
+
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  z-index: 1000;
+}
+
+.navbar-content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo{
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links button{
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.github-btn{
+  border-radius: 2rem !important;
+  padding: 0.7rem 1.5rem !important;
+
+  background: linear-gradient(90deg,#00d9ff,#ff00d4) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+#menu-icon{
+  display: none;
+  color: white;
+  font-size: 2rem;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.about img{
+  width: 30vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+}
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.info-box h1{
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.info-box h3{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.info-box span{
+  background: linear-gradient(90deg,#ff00d4,#00d9ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn-group{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
+  border: 2px solid black !important;
+  border-radius: 3rem !important;
+  padding: 1rem 2rem !important;
+  color: black !important;
+  font-weight: 600 !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.btn:hover{
+  background-color: black !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+/* ================= SCROLLBAR ================= */
+
 ::-webkit-scrollbar{
   width: 12px;
 }
 
 ::-webkit-scrollbar-track{
-  background-color: rgb(219, 219,219);
+  background-color: rgb(219,219,219);
 }
 
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(to bottom, #00d9ff, #ff00d4);
+  background: linear-gradient(to bottom,#00d9ff,#ff00d4);
+  border-radius: 10px;
 }
 
 /* ================= TABLET ================= */
 
-@media(max-width: 1280px){
+@media(max-width:1280px){
 
   header{
     padding: 1rem 2rem;
@@ -63,27 +178,22 @@ section{
     gap: 3rem;
   }
 
+  .about img{
+    width: 40vw;
+  }
+
   .experience-info{
     flex-direction: column;
   }
 
-  .input-box input{
-    padding: 2rem 5rem;
-    font-size: 2.5rem;
-  }
-
-  .input-box input::placeholder{
-    font-size: 2.5rem;
-  }
-
-  .input-box i{
-    font-size: 2.5rem;
+  .projects-grid{
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 /* ================= MOBILE ================= */
 
-@media(max-width: 768px){
+@media(max-width:768px){
 
   section{
     padding: 7rem 5% 4rem;
@@ -110,7 +220,7 @@ section{
   }
 
   #menu-icon{
-    display: block !important;
+    display: block;
     cursor: pointer;
   }
 
@@ -119,9 +229,11 @@ section{
     top: 100%;
     left: 0;
     margin-top: 1rem;
+
     width: 100%;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.95);
+
+    background-color: rgba(0,0,0,0.95);
     border-radius: 2rem;
 
     display: none;
@@ -140,8 +252,8 @@ section{
 
   .about{
     flex-direction: column;
-    gap: 2rem;
     text-align: center;
+    gap: 2rem;
   }
 
   .about img{
@@ -153,13 +265,16 @@ section{
     font-size: 2.7rem;
   }
 
-  .info-box span{
+  .info-box h3{
     font-size: 1.5rem;
+  }
+
+  .info-box span{
+    font-size: 1.3rem;
   }
 
   .btn-group{
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   .experience-info{
