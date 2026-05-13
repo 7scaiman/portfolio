@@ -36,16 +36,20 @@ function Unit16(props) {
                         <h2>Automated Systems</h2>
 
                         <p>
-                            In this unit, I learned about computer networks,
-                            different types of networks, network devices,
-                            data transmission, security and how the internet works.
+                            Automated Systems
+
+In this unit, I learned about automated systems and how automation is used in modern technology and industry. I explored how automated systems use inputs, processes and outputs to complete tasks efficiently with minimal human interaction.
+
+As part of this unit, I created an automated system project in Unreal Engine 5. I designed and developed a small interactive environment that demonstrated how automated systems can control movements, triggers and actions inside a digital space. This helped me improve my problem-solving, programming and game development skills.
+
+I also learned about the advantages and disadvantages of automation, including efficiency, accuracy, reliability and safety. During the assignments, I explained how different automated systems work and created flowcharts and system designs to show the logic behind automated processes.
                         </p>
                     </div>
 
                     <img
                         className="unit-image"
-                        src="/unit10.png"
-                        alt="Unit 10 Computer Networks"
+                        src="/Unit16/Unit16.png"
+                        alt="Unit 16 Automated Systems"
                     />
 
                 </div>
@@ -55,24 +59,27 @@ function Unit16(props) {
                     <h2>Download Assignments</h2>
 
                     <div className="unit-buttons">
-
                         <Button
-                            variant="contained"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_1.pdf"
-                            download
-                        >
-                            Assignment 1
+                                component="a"
+                                variant="contained"
+                                 startIcon={<DownloadIcon />}
+                                    href="/Unit16/UNIT16A1.zip"
+                                                   download="UNIT16A1.zip"
+                                >
+                                 Assignment 1
+                        </Button>
+                       
+                        <Button
+                                variant="outlined"
+                                startIcon={<DownloadIcon />}
+                                href="/Unit16/UNIT16A2.zip"
+                                download="UNIT16A2.zip"
+                             >
+                                Assignment 2
                         </Button>
 
-                        <Button
-                            variant="outlined"
-                            startIcon={<DownloadIcon />}
-                            href="/Unit10_Assignment_2.pdf"
-                            download
-                        >
-                            Assignment 2
-                        </Button>
+
+                    
 
                     </div>
                 </div>
