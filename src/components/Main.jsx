@@ -1,7 +1,7 @@
 import React from 'react';
 import  './CSS/Main.css';
 import {Box} from "@mui/material";
-import img from "../../public/resized_first_photo.jpg"
+import img from "../../public/photo_2026-05-14_18-15-32.jpg"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
