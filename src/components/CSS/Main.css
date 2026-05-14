@@ -1,15 +1,18 @@
-
 .about{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10rem;
-}
 
+    min-height: auto;
+    padding-top: 11rem;
+    padding-bottom: 6rem;
+}
 a{
     color: black;
     text-decoration: none;
 }
+
 .info-box{
     display: flex;
     flex-direction: column;
@@ -17,33 +20,40 @@ a{
     text-align: center;
     justify-content: center;
     gap: 1.5rem;
-
 }
+
 .info-box h3{
     font-size: 1.8rem;
     font-weight: 500;
     opacity: 0.8;
 }
-.about img{
-    height: 27vw;
-    width: 27vw;
-    border-radius: 100rem;
 
+.about img{
+    width: 32rem;
+    height: 32rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
 .info-box h1{
     font-size: 4rem;
     font-weight: 600;
 }
+
 .info-box span{
     background: linear-gradient(90deg,#ff00d4, #00d9ff);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     font-size: 2rem;
+    font-weight: 600;
 }
+
 .btn-group{
     display: flex;
     gap: 1rem;
 }
+
 .btn{
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
@@ -53,56 +63,57 @@ a{
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
 }
+
 .btn:hover{
     background-color: black;
     color: white;
 }
+
 .socials{
     display: flex;
     gap: 2rem;
 }
+
 .socials a{
     font-size: 2.5rem !important;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+
 .socials a:hover{
     transform: scale(1.1);
 }
-.contact-dialog .MuiDialog-paper {
+
+.contact-dialog .MuiDialog-paper{
     border-radius: 1.5rem;
     padding: 1rem;
     width: 320px;
 }
 
-.contact-dialog .MuiDialogTitle-root {
+.contact-dialog .MuiDialogTitle-root{
     font-size: 1.5rem;
     font-weight: 600;
     padding-bottom: 0.5rem;
 }
 
-.contact-dialog .MuiDialogContent-root {
+.contact-dialog .MuiDialogContent-root{
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
     padding-top: 0;
 }
 
-.contact-dialog .MuiDialogContent-root p {
+.contact-dialog .MuiDialogContent-root p{
     margin: 0.2rem 0;
     font-size: 1rem;
 }
 
-.contact-dialog .MuiDialogActions-root {
+.contact-dialog .MuiDialogActions-root{
     justify-content: center;
     padding-top: 1rem;
 }
 
-.contact-dialog .btn {
+.contact-dialog .btn{
     padding: 0.4rem 1.4rem;
     font-size: 1rem;
 }
-.contact-dialog .MuiDialogContent-root p {
-    margin: 0.2rem 0;
-}
-
