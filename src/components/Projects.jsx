@@ -43,7 +43,19 @@ function Projects(props) {
             </Box>
                </Box>
            </Box>
+            <div className="drive-link">
+                <a
+                    href="https://drive.google.com/drive/folders/1zvt433FOT3X85lQ-xwxEDMj57yiQEmJl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Link to Google Drive
+                </a>
 
+                <p>
+                    This Google Drive contains all of my projects, including my diploma project and demonstration videos.
+                </p>
+            </div>
         </section>
     );
 }

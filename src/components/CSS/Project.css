@@ -25,3 +25,22 @@
     width: 20vw;
     border-radius: 1rem;
 }
+.drive-link{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.drive-link a{
+    color: #1976d2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.drive-link a:hover{
+    color: #0d47a1;
+}
+
+.drive-link p{
+    margin-top: 0.5rem;
+}
