@@ -1,5 +1,5 @@
 .About-section{
-    padding: 8rem 10%;
+    padding: 0 10% 3rem;
 
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     font-size: 4rem;
     font-weight: 700;
 
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     line-height: 1.2;
 }
@@ -38,6 +38,7 @@
 .About-card:hover{
     transform: translateY(-5px);
 }
+
 .About-text{
     max-width: 900px;
     width: 100%;
@@ -64,7 +65,7 @@
 @media (max-width: 900px){
 
     .About-section{
-        padding: 6rem 5%;
+        padding: 1rem 5% 3rem;
     }
 
     .section-title{
@@ -85,7 +86,7 @@
 @media (max-width: 768px){
 
     .About-section{
-        padding: 4rem 1.2rem;
+        padding: 1rem 1.2rem 3rem;
     }
 
     .section-title{

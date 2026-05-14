@@ -14,7 +14,7 @@ function Main(props) {
     const [open, setOpen] = React.useState(false);
     return (
         <section  id="main" >
-            <Box display="flex" alignItems="center" justifyContent="center" className="about">
+            <Box display="flex" alignItems="center" justifyContent="center" className="main">
                 <img src={img} />
                 <Box className="info-box">
                     <Box className="text">

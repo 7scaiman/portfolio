@@ -38,7 +38,7 @@ function ContactsMe() {
                         <input
                             type="email"
                             name="email"
-                            placeholder="example@gmail.com"
+                            placeholder="Enter your email"
                             required
                         />
                         <EmailIcon
