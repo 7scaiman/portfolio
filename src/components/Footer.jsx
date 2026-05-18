@@ -6,23 +6,23 @@ function Footer(props) {
 
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="/#about">About</a>
                 </li>
 
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="/#experience">Experience</a>
                 </li>
 
                 <li>
-                    <a href="#Diploma">Diploma</a>
+                    <a href="/#diploma">Diploma</a>
                 </li>
 
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="/#projects">Projects</a>
                 </li>
 
                 <li>
-                    <a href="#BTEC">BTEC</a>
+                    <a href="/#BTEC">BTEC</a>
                 </li>
             </ul>
 
